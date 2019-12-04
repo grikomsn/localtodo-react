@@ -1,0 +1,41 @@
+{
+  "name": "localtodo-react",
+  "description": "your local todo list, now using react",
+  "version": "0.1.0",
+  "author": "Griko Nibras <hello@griko.id>",
+  "repository": "git@github.com:grikomsn/localtodo-react.git",
+  "dependencies": {
+    "@sindresorhus/class-names": "^1.1.0",
+    "modern-css-reset": "^1.0.4",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --config .prettierrc --write src/**/*.{css,js}"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+footer {
+  margin-top: 2rem;
+}
+
+button[type='reset'] {
+  background: none;
+  border: none;
+  color: #a00;
+  cursor: pointer;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #e00;
+  }
+}

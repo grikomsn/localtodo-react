@@ -4,8 +4,9 @@ pages:
   script:
     - npm install
     - npm run build
+    - mv build gitlab
   artifacts:
     paths:
-      - build
+      - gitlab
   only:
     - master

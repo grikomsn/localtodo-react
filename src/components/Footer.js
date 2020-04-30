@@ -1,11 +1,11 @@
-import './Footer.scss'
+import "./Footer.scss";
 
-import React from 'react'
+import * as React from "react";
 
 export default function Footer() {
   function resetAndReload() {
-    localStorage.clear()
-    window.location.reload()
+    localStorage.clear();
+    window.location.reload();
   }
 
   return (
@@ -22,5 +22,5 @@ export default function Footer() {
         </a>
       </small>
     </footer>
-  )
+  );
 }

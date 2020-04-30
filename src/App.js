@@ -1,9 +1,7 @@
-import React from 'react'
+import * as React from "react";
 
-import styles from './App.module.scss'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Todos from './components/Todos'
+import styles from "./App.module.scss";
+import { Footer, Header, Todos } from "./components";
 
 export default function App() {
   return (
@@ -12,5 +10,5 @@ export default function App() {
       <Todos />
       <Footer />
     </div>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import './Header.scss'
+import "./Header.scss";
 
-import React from 'react'
+import * as React from "react";
 
-import logo from '../logo.svg'
+import logo from "../logo.svg";
 
 export default function Header() {
   return (
@@ -11,5 +11,5 @@ export default function Header() {
       <h1>localtodo-react</h1>
       <p>your local todo list, now using react</p>
     </header>
-  )
+  );
 }

@@ -1,6 +1,10 @@
-# localtodo-react
+<!-- markdownlint-disable MD033 MD041 -->
 
-your local todo list, now using react
+<div align="center">
 
-<https://localtodo-react.now.sh>  
+![localtodo-react](./public/og.png)
+
+<https://localtodo-react.now.sh> <br/>
 <https://localtodo-react.netlify.com>
+
+</div>

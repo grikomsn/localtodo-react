@@ -1,27 +1,22 @@
 {
   "name": "localtodo-react",
-  "description": "your local todo list, now using react",
-  "version": "0.1.0",
-  "repository": "git@github.com:grikomsn/localtodo-react.git",
+  "description": "Your local todo list, now using React ⚛️",
+  "version": "0.2.0",
+  "repository": "https://github.com/grikomsn/localtodo-react.git",
   "author": "Griko Nibras <git@griko.id>",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
   "dependencies": {
     "@sindresorhus/class-names": "^1.1.0",
-    "modern-css-reset": "^1.1.0",
-    "node-sass": "^4.14.0",
+    "modern-css-reset": "^1.1.1",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
-  },
-  "devDependencies": {
-    "husky": "^4.2.5",
-    "prettier": "^2.0.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write src/**/*.{css,js}"
+    "react-scripts": "^3.4.3"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,11 +33,5 @@
       "last 1 safari version"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format"
-    }
-  },
-  "prettier": {},
   "license": "MIT"
 }

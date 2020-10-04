@@ -1,7 +1,8 @@
 import "./Todos.scss";
 
-import cns from "@sindresorhus/class-names";
 import * as React from "react";
+
+import cns from "@sindresorhus/class-names";
 
 const defaultTodos = [
   { text: "do this", completed: false },

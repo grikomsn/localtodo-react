@@ -5,6 +5,7 @@
 ![localtodo-react](./public/og.png)
 
 <https://localtodo-react.now.sh> <br/>
-<https://localtodo-react.netlify.com>
+<https://localtodo-react.netlify.com> <br/>
+<https://localtodo-react.hostman.site> <br/>
 
 </div>

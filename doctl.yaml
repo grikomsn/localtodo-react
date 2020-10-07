@@ -1,0 +1,13 @@
+name: localtodo-react
+region: nyc
+static_sites:
+  - build_command: yarn build
+    environment_slug: node-js
+    github:
+      branch: master
+      deploy_on_push: true
+      repo: grikomsn/localtodo-react
+    name: localtodo-react
+    output_dir: build
+    routes:
+      - path: /

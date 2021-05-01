@@ -2,11 +2,10 @@
 
 <div align="center">
 
-![localtodo-react](./public/og.png)
+![localtodo-react](https://api.microlink.io?url=https%3A%2F%2Flocaltodo-react.vercel.app%2F&overlay.browser=dark&screenshot=true&meta=false&embed=screenshot.url)
 
-<https://localtodo-react.now.sh> <br/>
+<https://localtodo-react.vercel.app> <br/>
 <https://localtodo-react.netlify.com> <br/>
-<https://localtodo-react.hostman.site> <br/>
 <https://localtodo-react-f5mol.ondigitalocean.app> <br/>
 
 </div>

@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <button type="reset" onClick={resetAndReload}>
+      <button onClick={resetAndReload} type="reset">
         Reset and reload
       </button>
 

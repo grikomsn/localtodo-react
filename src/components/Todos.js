@@ -13,7 +13,7 @@ const defaultTodos = [
 export default function Todos() {
   // #region states
   const [todos, setTodos] = React.useState(
-    JSON.parse(localStorage.getItem("todos")) || defaultTodos
+    JSON.parse(localStorage.getItem("todos")) || defaultTodos,
   );
   const [text, setText] = React.useState("");
   // #endregion
@@ -45,6 +45,7 @@ export default function Todos() {
 
   return (
     <ul className="todos">
+      {/* eslint-disable-next-line no-shadow */}
       {todos.map(({ text, completed }, i) => (
         <li key={i} className={cns("todo", { done: completed })}>
           <span>{text}</span>
@@ -62,11 +63,11 @@ export default function Todos() {
 
       <li className="todo input">
         <input
-          type="text"
-          placeholder="Type your todo"
-          value={text}
           onChange={(e) => setText(e.target.value)}
           onKeyPress={(e) => (e.key === "Enter" ? addTodo() : {})}
+          placeholder="Type your todo"
+          type="text"
+          value={text}
         />
 
         <button className={cns({ visible: text.length > 0 })} onClick={addTodo}>

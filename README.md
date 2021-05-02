@@ -6,6 +6,5 @@
 
 <https://localtodo-react.vercel.app> <br/>
 <https://localtodo-react.netlify.com> <br/>
-<https://localtodo-react-f5mol.ondigitalocean.app> <br/>
 
 </div>
